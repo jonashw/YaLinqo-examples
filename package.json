@@ -1,0 +1,25 @@
+{
+  "name": "php-linq-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch":{
+    "examples": {
+      "quiet":true,
+      "patterns":[
+        "examples.php"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-watch examples",
+    "examples": "php examples.php"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "npm-watch": "^0.7.0"
+  }
+}

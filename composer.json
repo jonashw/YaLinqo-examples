@@ -1,0 +1,12 @@
+{
+    "name": "jonashw/php-linq-samples",
+    "authors": [
+        {
+            "name": "jonashw",
+            "email": "jonwilson@ucanr.edu"
+        }
+    ],
+    "require": {
+        "athari/yalinqo": "^2.4"
+    }
+}
